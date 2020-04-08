@@ -1,0 +1,176 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+video.fillWidth
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+
+}
+
+
+
+body { 
+  background: url("fundo2.png") no-repeat ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Raleway';
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  color: white;
+}
+p{
+  color: white;
+  font-size: unset; 
+  font-weight: 400;
+}
+
+.navbar{
+  background-color: #100936;
+}
+.navbar-nav{
+	padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav-item{
+	padding-right: 80px;
+	padding-left: 80px;
+	font-size: 20px;
+	color: white;
+}
+
+.nav-item:hover{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+hr{
+	clear: both;
+  visibility: hidden;
+}
+
+.frase-entrevista{
+  padding: 20px;
+
+}
+
+.planeta-home{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+
+.texto{
+	text-align: center; 
+	margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.jogo-texto{
+  margin-bottom: 200px;
+  text-align: right;
+}
+
+h1.jogo{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+p.jogo{
+  font-size: 30px;
+}
+
+.planetas{
+  width: 100%;
+}
+.planeta-fundo{
+  width: 100%;
+}
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+
+}
+#footer {
+  background: #14003E;
+}
+
+#footer a {
+ text-decoration: none;
+ font-size: 18px;
+
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
