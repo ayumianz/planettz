@@ -14,10 +14,7 @@
 </head>
 <body>
 
- <video id="myVideo" class="fillWidth" controls autoplay width="100%" height="100%">
-  <source src="vídeo.mp4" type="video/mp4">
-  </video>
-  <div id="videoEnd" style="display:none"></div>
+
 
 <nav class="navbar navbar-expand-md">
   <div class="mx-auto order-0">
@@ -101,7 +98,9 @@
     <div class="row align-items-center">
       <div class="col-lg-6 order-lg-2">
         <div class="p-5">
+           <div data-aos="fade-up-left" data-aos-duration="1500">
           <img class="img" src="app.png" alt="">
+        </div>
         </div>
       </div>
       <div class="col-lg-6 order-lg-1">
@@ -118,31 +117,16 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div data-aos="fade-up-right" data-aos-duration="1500">
-          <img class="img_hospital" src="hospital.jpg" style="width: 500px;">
+        <img class="img" src="app_avaliação.png" alt="">
         </div>
       </div>
       <div class="col-lg-6">
-        <hr>
-        <p> A gameficação do processo torna tudo mais divertido para o paciente, além de facilitar o atendimento hospitalar e fisioterapêutico! Após conversar com profissionais da área e pacientes, constatamos que crianças com patologias específicas que impossibilitam sua mobilidade parcial ou total precisavam de uma motivação. A maioria desses exploradores tem que ir constantemente no hospital ou centros fisioterapêuticos e, com essa aplicação, podem brincar e aproveitar as sessões. Com design inclusivo e moderno, que permite que todos entrem na brincadeira de explorar os diversos mundos, independente de sua condição física. </p>
+        <p> “Planettz” se preocupa principalmente com a saúde de nossos pequenos exploradores. Com o método de avaliação,pais, pacientes e médicos podem registar o avanço das crianças. Se a criança tiver dificuldade de fazer a quantidade e intensidade de movimentos que o médico pediu, o pai pode facilmente registrar informações que julga importante no aplicativo. Assim, na próxima sessão, com auxílio e orientação do fisioterapeuta responsável, podem chegar na melhor solução juntos</p>
       </div>
     </div>
   </div>
 </section>
 
-<section>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6 order-lg-2">
-        <div class="p-5">
-          <img class="img" src="app.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-6 order-lg-1">
-        <p>“Planettz” se preocupa principalmente com a saúde de nossos pequenos exploradores. Com o método de avaliação,pais, pacientes e médicos podem registar o avanço das crianças. Se a criança tiver dificuldade de fazer a quantidade e intensidade de movimentos que o médico pediu, o pai pode facilmente registrar informações que julga importante no aplicativo. Assim, na próxima sessão, com auxílio e orientação do fisioterapeuta responsável, podem chegar na melhor solução juntos!</p>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section>
   <div class="container">
@@ -160,16 +144,16 @@
 <section>
   <div class="container"><a name="planetas"></a>
     <div class="row">
-      <div class="col" data-aos="zoom-in-up" data-aos-duration="2500">
+      <div class="col" data-aos="zoom-in-up" data-aos-duration="2000">
         <img class="planetas" src="planeta_doce.png">
       </div>
-      <div class="col" data-aos="zoom-in-down" data-aos-duration="2500">
+      <div class="col" data-aos="zoom-in-down" data-aos-duration="2000">
         <img class="planetas" src="planeta_pizza.png">
       </div>
-      <div class="col" data-aos="zoom-in-up" data-aos-duration="2500">
+      <div class="col" data-aos="zoom-in-up" data-aos-duration="2000">
         <img class="planetas" src="planeta_oceano.png">
       </div>
-      <div class="col" data-aos="zoom-in-down" data-aos-duration="2500">
+      <div class="col" data-aos="zoom-in-down" data-aos-duration="2000">
         <img class="planetas" src="planeta_hamburger.png">  
       </div>
     </div>
@@ -185,7 +169,7 @@
       <div class="col-xs-12 col-sm-4 col-md-4">
         <h5>Planettz</h5>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+        <p>Planettz é um projeto focado na gameficação do processo de fisioterapia. Com um aplicativo, uma meia wearable e uma nave de brinquedo, todos os pacientes podem se divertir enquanto fazem seus exercícios!</p>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4" style="padding-left: 70px;">
         <ul class="list-unstyled quick-links">
@@ -209,17 +193,7 @@
 <script>
   AOS.init();
 </script>
-<script>
 
-  document.getElementById('myVideo').addEventListener('ended',myHandler,false);
-  function myHandler(e) {
-    if(!e) { e = window.event; }
-
-    document.getElementById('myVideo').style.display="none";
-    document.getElementById('videoEnd').style.display="block";
-  }
-
-</script>
 <script src="parallax.js"></script>
 <script>
   var scene = document.getElementById('scene');
